@@ -17,7 +17,7 @@ python act.py path_to_save_file.pt
 ```python
 import act
 
-config = act.load_from_path_or_bytesio("the_path_to_the_thing.pt")
+config = act.from_path_or_bytesio("the_path_to_the_thing.pt")
 
 print(config["epochs"])
 ```
